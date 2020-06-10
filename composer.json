@@ -9,12 +9,15 @@
         }
     ],
     "autoload": {
-        "psr-4": {"App\\": "src/"}
+        "psr-4": {"App\\": "src/"},
+        "files":["src/config/Config.php"]
     },
+    
 
     "minimum-stability": "stable",
     "require": {
         "league/route": "dev-master",
-        "laminas/laminas-diactoros": "^2.3"
+        "laminas/laminas-diactoros": "^2.3",
+        "coffeecode/router": "^1.0"
     }
 }

@@ -5,12 +5,13 @@ use CoffeeCode\Router\Router;
 
 $router = new Router(BASE_URL);
 
-
-$router->namespace('App\Controllers');
-
 $router->group(null);
 
-$router->get("/",'Web:home');
+$router->get("/", function($data){
+    echo '<h1>Index</h1>';
+    var_dump($data);
+
+});
 
 $router->group('ops');
 $router->get("/{errcode}",function($data){
