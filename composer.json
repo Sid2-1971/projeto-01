@@ -1,0 +1,17 @@
+{
+    "name": "sidnei/projeto-01",
+    "description": "Estudos PHP+Composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sidnei Brianti",
+            "email": "scbrianti@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    },
+
+    "minimum-stability": "dev",
+    "require": {}
+}
