@@ -11,6 +11,7 @@ $router->namespace('App\Controllers');
 $router->group(null);
 
 $router->get("/",'Web:home');
+$router->get("/{id}",'Web:home');
 
 $router->group('ops');
 $router->get("/{errcode}",function($data){

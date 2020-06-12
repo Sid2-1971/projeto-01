@@ -1,9 +1,12 @@
 <?php
 
-namespace App\Controllers;
+namespace App\controllers;
 
-use Psr\Http\Message\ResponseInterface;
+
 use Psr\Http\Message\ServerRequestInterface;
+
+
+
 
 //  TODO Classe Home
 class Home {
