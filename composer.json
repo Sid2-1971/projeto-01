@@ -18,6 +18,8 @@
     "require": {
         "league/route": "dev-master",
         "laminas/laminas-diactoros": "^2.3",
-        "coffeecode/router": "^1.0"
+        "coffeecode/router": "^1.0",
+        "oefenweb/statistics": "^3.0",
+        "coffeecode/datalayer": "^1.1"
     }
 }

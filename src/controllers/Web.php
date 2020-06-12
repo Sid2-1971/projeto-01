@@ -9,13 +9,9 @@ use App\Views\Template;
  */
 class Web {
 
-   
-    /**
-     * @param mixed $data
-     * 
-     * @return [type]
-     */
-    public function home($data){
+ 
+    public function home($data)
+    {
         //echo '<h1>' . get_class($this).':'.__FUNCTION__.'</h1></br>';
         $var = $data['id'];
         //echo $var;
@@ -24,4 +20,6 @@ class Web {
         $view = new Template(); 
         $view->template($retorno);
     }   
+
+   
 }
